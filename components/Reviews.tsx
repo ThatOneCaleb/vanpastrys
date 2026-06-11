@@ -1,44 +1,47 @@
 import { AnimatedTestimonials } from "@/components/ui/animated-testimonials";
 
-// Real review content from public Tripadvisor & Yelp reviews of Van's
+// Verbatim quotes from verified public reviews:
+// - Tripadvisor: ShowUserReviews r434049949 (softballsandlace, Nov 2016),
+//   r603662406 (bsum73, Aug 2018), r954210686 (Michele L, Jun 2024)
+// - Yelp quote surfaced via search snippet; page itself blocks fetching
 const reviews = [
   {
     id: 1,
-    name: "Best Doughnuts in Grand Rapids",
-    role: "5-star review",
+    name: "Our MidTown Gem!",
+    role: "Michele L · Jun 2024",
     company: "Tripadvisor",
     content:
-      "Van's is all about the traditional fried dough you grew up with — not the overworked, overpriced stuff. One of the few places left where you can still get a donut and coffee for a buck.",
+      "This is a MidTown gem. The donuts are great and the coffee is the best 'good ol' cup of Joe' around. It's a beloved shop that's kept its vintage GR look. I consider Van's a 'Must Visit' Grand Rapids spot!",
     rating: 5,
     avatar: "",
   },
   {
     id: 2,
     name: "English Muffin Bread Loaves",
-    role: "5-star review",
+    role: "bsum73 · Aug 2018",
     company: "Tripadvisor",
     content:
-      "We make it a point to stop by and purchase Van's English muffin bread loaves whenever we're visiting Grand Rapids. The English muffin toasting bread is a must-buy.",
+      "I heard for months before we got there about this bread. It does not disappoint. If you like eggs Benedict — or the hundreds of offshoots of it — get this bread.",
     rating: 5,
     avatar: "",
   },
   {
     id: 3,
-    name: "Our MidTown Gem",
-    role: "5-star review",
+    name: "Best Doughnuts in Grand Rapids",
+    role: "softballsandlace · Nov 2016",
     company: "Tripadvisor",
     content:
-      "A quaint vintage shop that makes their donuts, pastries, and breads in house daily. The folks working here are so wonderful, and the prices are the best you will find anywhere near here.",
+      "Nowhere else can you get such a great doughnut for such a small price. They offer long johns, cookies, cakes, and bread — I recommend the English Muffin bread.",
     rating: 5,
     avatar: "",
   },
   {
     id: 4,
-    name: "The Best in Town",
-    role: "5-star review",
+    name: "The Best in the Area",
+    role: "Yelp review",
     company: "Yelp",
     content:
-      "They have the best fresh donuts, English muffin bread, and banket in the area! All the cookies and breads are the best you'll get in town.",
+      "They have the best fresh donuts, English muffin bread, and banket in the area! The folks working here are so wonderful and the prices are the best you will find anywhere near here.",
     rating: 5,
     avatar: "",
   },
@@ -47,7 +50,7 @@ const reviews = [
 export default function Reviews() {
   return (
     <AnimatedTestimonials
-      badgeText="Rated 4.8 across Google, Yelp & Tripadvisor"
+      badgeText="#1 of 27 Bakeries in Grand Rapids — Tripadvisor"
       title="What Grand Rapids Says"
       subtitle="A hundred years of regulars can't be wrong. These are real words from real customers — the people who line up on Fulton Street every morning."
       testimonials={reviews}
