@@ -271,9 +271,8 @@ export default function Menu() {
           Seasonal items rotate — pumpkin and apple donuts in fall, paczki for
           Fat Tuesday, hot cross buns at Easter.{" "}
           <a
-            href="https://www.vanspastry.com/menu"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="/assets/vans-menu.pdf"
+            download="vans-menu.pdf"
             data-cursor="hover"
             className="text-gold underline decoration-gold/40 underline-offset-4 transition-colors hover:text-brown"
           >

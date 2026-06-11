@@ -37,11 +37,11 @@ const reviews = [
   },
   {
     id: 4,
-    name: "The Best in the Area",
-    role: "Yelp review",
-    company: "Yelp",
+    name: "Legend!",
+    role: "Beri B · Apr 2022",
+    company: "Tripadvisor",
     content:
-      "They have the best fresh donuts, English muffin bread, and banket in the area! The folks working here are so wonderful and the prices are the best you will find anywhere near here.",
+      "I'm Dutch. This place is older than me and I wouldn't change a thing. My favorites are the Dutch Crisps. The Fritters are divine. Everything is homemade, nothing comes off an assembly line. Staff is always cheerful and friendly.",
     rating: 5,
     avatar: "",
   },
